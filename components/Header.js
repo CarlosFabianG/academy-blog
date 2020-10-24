@@ -24,7 +24,7 @@ export default function Header() {
           font-size: 1rem;
         }
         nav a {
-          margin-right: 1rem;
+          margin-right: 2rem;
           text-decoration: none;
         }
         nav a:hover {
