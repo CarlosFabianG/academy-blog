@@ -30,10 +30,6 @@ export default function Header() {
         nav a:hover {
           text-decoration: underline;
         }
-
-
-
-        
       `}</style>
     </>
   )
