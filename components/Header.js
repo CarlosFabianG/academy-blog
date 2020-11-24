@@ -17,7 +17,7 @@ export default function Header() {
       <style jsx>{`
         nav {
           width: auto;
-          padding: 0 2rem;
+          padding: 0;
           display: flex;
           justify-content: space-between;
           align-items: center;

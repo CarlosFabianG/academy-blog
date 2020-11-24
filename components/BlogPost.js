@@ -9,6 +9,7 @@ export default function BlogPost({ children, meta}) {
         {`
           .blog-p {
             color: hsla(0, 0%, 100%, 0.88);
+            line-height: 2;
           }
         `}
       </style>
