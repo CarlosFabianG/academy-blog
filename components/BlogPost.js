@@ -4,7 +4,14 @@ export default function BlogPost({ children, meta}) {
   return (
     <>
       <HeadPost meta={meta} isBlogPost />
-      <article>{children}</article>
+      <article className="blog-p">{children}</article>
+      <style jsx>
+        {`
+          .blog-p {
+            color: hsla(0, 0%, 100%, 0.88);
+          }
+        `}
+      </style>
     </>
   )
 }

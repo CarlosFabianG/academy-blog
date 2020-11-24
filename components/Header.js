@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <nav>
-        <h1>Next'Blog</h1>
+        <h1>My NS internship journey</h1>
         <div>
           <Link href='/'>
             <a>Blog</a>
@@ -22,6 +22,10 @@ export default function Header() {
           justify-content: space-between;
           align-items: center;
           font-size: 1rem;
+        }
+        h1 {
+          color: white;
+          margin: 5% 20%;
         }
         nav a {
           margin-right: 2rem;

@@ -14,6 +14,13 @@ export default function Layout({ children, pageTitle, description }) {
         <Header />
         <div className="content">{children}</div>
       </main>
+      <style jsx>
+        {`
+          .content {
+            margin: 20px 20%;
+          }
+        `}
+      </style>
     </>
   );
 }

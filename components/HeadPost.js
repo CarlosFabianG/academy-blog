@@ -15,7 +15,7 @@ export const HeadPost = ({ meta, isBlogPost }) => (
           h1 {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #f39c12;
+            color: #ffa7c4;
           }
           .great-title {
               font-size: 2rem;
@@ -26,6 +26,7 @@ export const HeadPost = ({ meta, isBlogPost }) => (
           }
           .details {
             margin-bottom: 1rem;
+            color: #bdbdbd;
           }
         `}
       </style>
