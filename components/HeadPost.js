@@ -21,7 +21,7 @@ export const HeadPost = ({ meta, isBlogPost }) => (
               font-size: 2rem;
           }
           .details span {
-          color: hsla(0, 0%, 100%, 0.88);;
+            color: hsla(0, 0%, 100%, 0.88);;
             margin-right: 1rem;
           }
           .details {

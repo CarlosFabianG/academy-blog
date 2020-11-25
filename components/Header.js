@@ -25,7 +25,8 @@ export default function Header() {
         }
         h1 {
           color: white;
-          margin: 5% 20%;
+          margin: 5% 30%;
+          font-size: 32px;
         }
         nav a {
           margin-right: 2rem;

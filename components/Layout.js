@@ -17,7 +17,7 @@ export default function Layout({ children, pageTitle, description }) {
       <style jsx>
         {`
           .content {
-            margin: 20px 20%;
+            margin: 20px 30%;
           }
         `}
       </style>

@@ -1,0 +1,10 @@
+import BlogPost from '../../../components/BlogPost'
+
+export const meta = {
+  title: 'Moonshot thinking',
+  description: 'Getting started with the Next framework',
+  date: 'Oct 19, 2020',
+  readTime: 4 
+}
+
+export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
